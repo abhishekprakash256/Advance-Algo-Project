@@ -1,6 +1,6 @@
 ## Project Description
 
-Describe the project description for the algorithm and the code.
+Describe the project for the algorithm and the code.
 
 ### Dependencies 
 
@@ -15,7 +15,7 @@ python3 program_name
 
  ### Testing
 
-- Pytest must be installed 
+- ​	Pytest must be installed 
 
 ```bash
 pytest test_project.py
