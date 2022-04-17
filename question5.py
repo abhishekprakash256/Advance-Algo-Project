@@ -211,14 +211,12 @@ def get_total_cost(graph, path):
     return weight
 
 
-
-
 if __name__ == '__main__':
 
     #file reading 
     txt_file = r"input_7.txt"
     debug_folder = r"output/1/"
-    source_node = "1"
+    source_node = "0"
     debug = False
 
 
