@@ -86,8 +86,12 @@ def create_graph_from_txt_file(txt_file: str):
     nodes = []
     with open(txt_file) as file:
         line = file.readline()
+        counter = 0
         while line:
-            if "#" not in line:
+            if counter ==0 and type(line) == str: 
+                num_nodes = line  
+                counter +=1
+            else:
                 n_info = line.replace("\n", "").split(" ")
                 nodes.append((n_info[0], n_info[1], n_info[2]))
 
