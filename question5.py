@@ -224,7 +224,7 @@ if __name__ == '__main__':
     # create graph from input txt file
     initial_g = create_graph_from_txt_file(txt_file)
     if debug:
-        #print("Initial Graph:")
+        print("Initial Graph:")
         print_edges_with_weight(initial_g)
         initial_g.plot_graph(os.path.join(debug_folder, "graph.png"))
 
